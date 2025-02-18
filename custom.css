@@ -1,3 +1,11 @@
 .account-bar__item:nth-child(n+4) {
-    display: none;
+    display: none !important;
+}
+
+.account-bar__item {
+    margin: 0 !important;
+}
+
+.account-bar {
+    gap: 1rem !important;
 }
